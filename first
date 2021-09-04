@@ -1,0 +1,184 @@
+getgenv().abiekfefuiefefugefefgefoifezfjfiizueze = true
+getgenv().abiekfefuiefefugefefgefoifezfjfiizuezefhneufhey = true
+
+if getgenv().abiekfefuiefefugefefgefoifezfjfiizueze == true then
+local ScreenGui = Instance.new("ScreenGui")
+local arriere = Instance.new("Frame")
+local arriere_2 = Instance.new("Frame")
+local arriere_3 = Instance.new("Frame")
+local devant = Instance.new("Frame")
+local Anim = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+arriere.Name = "arriere "
+arriere.Parent = ScreenGui
+arriere.BackgroundColor3 = Color3.fromRGB(255, 160, 165)
+arriere.Position = UDim2.new(0.349170446, 0, 0.208151385, 0)
+arriere.Size = UDim2.new(0, 400, 0, 400)
+
+arriere_2.Name = "arriere "
+arriere_2.Parent = arriere
+arriere_2.BackgroundColor3 = Color3.fromRGB(255, 160, 165)
+arriere_2.Position = UDim2.new(-0.000829547644, 0, 0.00065138936, 0)
+arriere_2.Rotation = 140.000
+arriere_2.Size = UDim2.new(0, 400, 0, 400)
+
+arriere_3.Name = "arriere "
+arriere_3.Parent = arriere
+arriere_3.BackgroundColor3 = Color3.fromRGB(255, 160, 165)
+arriere_3.Position = UDim2.new(-0.000829547644, 0, 0.00065138936, 0)
+arriere_3.Rotation = 280.000
+arriere_3.Size = UDim2.new(0, 400, 0, 400)
+
+devant.Name = "devant"
+devant.Parent = ScreenGui
+devant.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+devant.Position = UDim2.new(0.368009418, 0, 0.244541481, 0)
+devant.Size = UDim2.new(0, 350, 0, 350)
+
+Anim.Name = "Anim"
+Anim.Parent = devant
+Anim.BackgroundColor3 = Color3.fromRGB(252, 255, 46)
+Anim.Position = UDim2.new(0.213162601, 0, 0.215417132, 0)
+Anim.Size = UDim2.new(0, 200, 0, 200)
+
+UICorner.CornerRadius = UDim.new(1, 8)
+UICorner.Parent = Anim
+
+TextLabel.Parent = Anim
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.00228363276, 0, 0.191373184, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 122)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "P"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = devant
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.834999979, 0)
+TextLabel_2.Size = UDim2.new(0, 350, 0, 57)
+TextLabel_2.Font = Enum.Font.Oswald
+TextLabel_2.Text = "e"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+-- Scripts:
+
+local function AHPXCP_fake_script() -- arriere.eeeeeaaaaaaa 
+	local script = Instance.new('Script', arriere)
+
+	Spinny = script.Parent
+	
+	while (5) do
+		wait(0.01)
+		Spinny.Rotation = Spinny.Rotation +7.5
+	end
+	
+end
+coroutine.wrap(AHPXCP_fake_script)()
+local function OKXLNA_fake_script() -- arriere_2.aaaaaaaaaaaaeeeeeeee 
+	local script = Instance.new('Script', arriere_2)
+
+	Spinny = script.Parent
+	
+	while (5) do
+		wait(0.01)
+		Spinny.Rotation = Spinny.Rotation +7.5
+	end
+	
+end
+coroutine.wrap(OKXLNA_fake_script)()
+local function JPSNWGK_fake_script() -- arriere_3.aaaaaaaaaaaeeee 
+	local script = Instance.new('Script', arriere_3)
+
+	Spinny = script.Parent
+	
+	while (5) do
+		wait(0.01)
+		Spinny.Rotation = Spinny.Rotation +7.5
+	end
+	
+end
+coroutine.wrap(JPSNWGK_fake_script)()
+local function UYTIT_fake_script() -- arriere.uvfgqsvirfqsirfygq 
+	local script = Instance.new('Script', arriere)
+
+	wait(6) 
+	script.Parent.Visible = false
+	
+end
+coroutine.wrap(UYTIT_fake_script)()
+local function DJZZH_fake_script() -- UICorner.Script 
+	local script = Instance.new('Script', UICorner)
+
+	
+end
+coroutine.wrap(DJZZH_fake_script)()
+local function ZQFK_fake_script() -- TextLabel.P 
+	local script = Instance.new('Script', TextLabel)
+
+	while (1) do
+		wait(0.01)
+		script.Parent.Rotation = script.Parent.Rotation +5
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(ZQFK_fake_script)()
+local function XVEIEOU_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	while true do
+		script.Parent.Text = "getting the loadstring"
+		wait(1)
+		script.Parent.Text = "making your brain"
+		wait(1)
+		script.Parent.Text = "making a confinement"
+		wait(1)
+		script.Parent.Text = "pre loading hub"
+		wait(1)
+		script.Parent.Text = "exploit ready"
+		wait(1)
+		script.Parent.Text = "loading"
+		wait(0.1)
+		script.Parent.Text = "loading."
+		wait(0.1)
+		script.Parent.Text = "loading.."
+		wait(0.1)
+		script.Parent.Text = "loading..."
+		wait(100)
+	end
+	
+end
+coroutine.wrap(XVEIEOU_fake_script)()
+local function XJDZDT_fake_script() -- devant.Script 
+	local script = Instance.new('Script', devant)
+
+	wait(8) 
+	script.Parent.Visible = false
+	
+end
+coroutine.wrap(XJDZDT_fake_script)()
+end
+
+if getgenv().abiekfefuiefefugefefgefoifezfjfiizuezefhneufhey == true then 
