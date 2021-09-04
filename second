@@ -1,1 +1,371 @@
-print ("e")
+local _2 = Instance.new("ScreenGui")
+local ui1 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local badbutton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local goodbutton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local Listes = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local bouton = Instance.new("TextButton")
+
+--Properties:
+
+_2.Name = "2"
+_2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+_2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ui1.Name = "ui1"
+ui1.Parent = _2
+ui1.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+ui1.Position = UDim2.new(0.367903113, 0, 0.244541481, 0)
+ui1.Size = UDim2.new(0, 349, 0, 349)
+
+TextLabel.Parent = ui1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.859598875, 0)
+TextLabel.Size = UDim2.new(0, 350, 0, 50)
+TextLabel.Font = Enum.Font.PatrickHand
+TextLabel.Text = "lol"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+badbutton.Name = "bad button"
+badbutton.Parent = ui1
+badbutton.BackgroundColor3 = Color3.fromRGB(255, 146, 148)
+badbutton.Position = UDim2.new(0.042857144, 0, 0.343839526, 0)
+badbutton.Size = UDim2.new(0, 122, 0, 63)
+badbutton.Font = Enum.Font.SourceSans
+badbutton.Text = "Bad "
+badbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+badbutton.TextScaled = true
+badbutton.TextSize = 14.000
+badbutton.TextWrapped = true
+badbutton.MouseButton1Click:connect(function()
+print ("eezzfdfd")
+end)
+
+UICorner.CornerRadius = UDim.new(0.100000001, 8)
+UICorner.Parent = badbutton
+
+goodbutton.Name = "good button"
+goodbutton.Parent = ui1
+goodbutton.BackgroundColor3 = Color3.fromRGB(255, 146, 148)
+goodbutton.Position = UDim2.new(0.60857141, 0, 0.343839526, 0)
+goodbutton.Size = UDim2.new(0, 122, 0, 63)
+goodbutton.Font = Enum.Font.SourceSans
+goodbutton.Text = "Good"
+goodbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+goodbutton.TextScaled = true
+goodbutton.TextSize = 14.000
+goodbutton.TextWrapped = true
+goodbutton.MouseButton1Click:connect(function()
+print ("eeeeee")
+end)
+
+UICorner_2.CornerRadius = UDim.new(0.100000001, 8)
+UICorner_2.Parent = goodbutton
+
+TextButton.Parent = ui1
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.857142866, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 50, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ">"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Listes.Name = "Listes"
+Listes.Parent = ui1
+Listes.BackgroundColor3 = Color3.fromRGB(255, 255, 206)
+Listes.Position = UDim2.new(1, 0, 0, 0)
+Listes.Size = UDim2.new(0, 161, 0, 350)
+Listes.Visible = false
+
+ScrollingFrame.Parent = Listes
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Size = UDim2.new(0, 161, 0, 349)
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.0714285746, 0)
+TextLabel_2.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_2.Font = Enum.Font.Oswald
+TextLabel_2.Text = "krnl - Good"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 0.142857149, 0)
+TextLabel_3.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_3.Font = Enum.Font.Oswald
+TextLabel_3.Text = "proxo - Good"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 0, 0.214285731, 0)
+TextLabel_4.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_4.Font = Enum.Font.Oswald
+TextLabel_4.Text = "fluxus  - Good"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = ScrollingFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.285714298, 0)
+TextLabel_5.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_5.Font = Enum.Font.Oswald
+TextLabel_5.Text = "sentinel  - Good"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = ScrollingFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.00621118024, 0, 0.569999993, 0)
+TextLabel_6.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_6.Font = Enum.Font.Oswald
+TextLabel_6.Text = "omega X  - Bad"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = ScrollingFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0, 0, 0.427142859, 0)
+TextLabel_7.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_7.Font = Enum.Font.Oswald
+TextLabel_7.Text = "kiwi x   - Bad"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0, 0, 0.498571426, 0)
+TextLabel_8.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_8.Font = Enum.Font.Oswald
+TextLabel_8.Text = "electron  - Bad"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_9.Font = Enum.Font.Oswald
+TextLabel_9.Text = "JJSploit  - THE GOD"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0, 0, 0.64142859, 0)
+TextLabel_10.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_10.Font = Enum.Font.Oswald
+TextLabel_10.Text = "shadow  - Bad"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextLabel_11.Parent = ScrollingFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0, 0, 0.712857187, 0)
+TextLabel_11.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_11.Font = Enum.Font.Oswald
+TextLabel_11.Text = "sk8r  - Bad"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+TextLabel_12.Parent = ScrollingFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0, 0, 0.784285784, 0)
+TextLabel_12.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_12.Font = Enum.Font.Oswald
+TextLabel_12.Text = "fear X  - Bad"
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+TextLabel_13.Parent = ScrollingFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0, 0, 0.855714381, 0)
+TextLabel_13.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_13.Font = Enum.Font.Oswald
+TextLabel_13.Text = "oxygen  - Bad"
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+TextLabel_14.Parent = ScrollingFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0, 0, 0.927142978, 0)
+TextLabel_14.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_14.Font = Enum.Font.Oswald
+TextLabel_14.Text = "aspect  - Bad"
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+TextLabel_15.Parent = ScrollingFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.00621118024, 0, 0.355714291, 0)
+TextLabel_15.Size = UDim2.new(0, 148, 0, 50)
+TextLabel_15.Font = Enum.Font.Oswald
+TextLabel_15.Text = "Synapse x - Good"
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+bouton.Name = "bouton"
+bouton.Parent = Listes
+bouton.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+bouton.Position = UDim2.new(-0.309671909, 0, 0, 0)
+bouton.Size = UDim2.new(0, 49, 0, 50)
+bouton.Font = Enum.Font.SourceSans
+bouton.Text = "<"
+bouton.TextColor3 = Color3.fromRGB(0, 0, 0)
+bouton.TextScaled = true
+bouton.TextSize = 14.000
+bouton.TextWrapped = true
+
+-- Scripts:
+
+local function AEJZDL_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while true do
+		script.Parent.Text = "Loading"
+		wait(0.1)
+		script.Parent.Text = "Loading."
+		wait(0.1)
+		script.Parent.Text = "Loading.."
+		wait(0.1)
+		script.Parent.Text = "Loading..."
+		wait(0.1)
+	end
+	
+end
+coroutine.wrap(AEJZDL_fake_script)()
+local function BBBEAKC_fake_script() -- badbutton.Script 
+	local script = Instance.new('Script', badbutton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+	
+	end)
+	
+	
+	
+	
+	
+end
+coroutine.wrap(BBBEAKC_fake_script)()
+local function AYYS_fake_script() -- goodbutton.Script 
+	local script = Instance.new('Script', goodbutton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+	
+	end)
+	
+	
+	
+	
+	
+end
+coroutine.wrap(AYYS_fake_script)()
+local function PZGT_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	local frame = script.Parent.Parent.Listes  -- change “Test” to the name of the frane
+	
+	local open = false
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		if frame.Visible == false then
+	
+			frame.Visible = true
+	
+		end
+	
+	end)
+end
+coroutine.wrap(PZGT_fake_script)()
+local function BGTOMWC_fake_script() -- bouton.Script 
+	local script = Instance.new('Script', bouton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+	
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(BGTOMWC_fake_script)()
