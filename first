@@ -182,6 +182,6 @@ coroutine.wrap(XJDZDT_fake_script)()
 end
 
 if getgenv().abiekfefuiefefugefefgefoifezfjfiizuezefhneufhey == true then 
-wait()
-https://raw.githubusercontent.com/PitchyATree/hub-loading/main/second
+wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/hub-loading/main/second", true))()
 end
