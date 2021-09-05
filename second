@@ -60,7 +60,7 @@ badbutton.TextScaled = true
 badbutton.TextSize = 14.000
 badbutton.TextWrapped = true
 badbutton.MouseButton1Click:connect(function()
-print ("eezzfdfd")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/hub-loading/main/end%20bad"))()
 end)
 
 UICorner.CornerRadius = UDim.new(0.100000001, 8)
@@ -78,7 +78,7 @@ goodbutton.TextScaled = true
 goodbutton.TextSize = 14.000
 goodbutton.TextWrapped = true
 goodbutton.MouseButton1Click:connect(function()
-print ("eeeeee")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/hub-loading/main/end%20good"))()
 end)
 
 UICorner_2.CornerRadius = UDim.new(0.100000001, 8)
